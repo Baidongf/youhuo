@@ -1,0 +1,306 @@
+@charset 'utf-8';
+#banner {
+    margin-top: 10px;
+    height: 510px;
+}
+
+.banner-con {
+    height: 510px;
+    position: relative;
+}
+
+.banner-con>img {
+    position: absolute;
+    left: 50%;
+    margin-left: -575px;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.banner-con>img:nth-of-type(1) {
+    opacity: 1;
+}
+
+.banner-con ul {
+    width: 1150px;
+    height: 54px;
+    position: absolute;
+    bottom: 0;
+}
+
+.banner-con ul li {
+    position: relative;
+    float: left;
+}
+
+.banner-con ul li a {
+    margin-right: 6px;
+    display: block;
+    width: 138px;
+    height: 54px;
+}
+
+.banner-con ul li .mark {
+    position: absolute;
+    background: #000;
+    top: 0;
+    z-index: 1;
+    width: 138px;
+    height: 54px;
+    opacity: 0.3;
+}
+
+.banner-con ul li:first-child .mark {
+    opacity: 0;
+}
+
+.banner-con ul li:last-child a {
+    margin: 0;
+}
+
+.active {
+    opacity: 0!important;
+}
+
+.btn_l,
+.btn_r {
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 56px;
+    text-align: center;
+    z-index: 2;
+    background: #fff;
+    opacity: 0.55;
+    margin: -30px 0 0;
+}
+
+.btn_r {
+    right: 0;
+}
+
+#single {
+    height: 794px;
+}
+
+.title {
+    width: 100%;
+    height: 73px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.title p {
+    width: 298px;
+    height: 31px;
+    font-size: 14px;
+    line-height: 31px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.single_1 {
+    width: 100%;
+    height: 641px;
+}
+
+.single_1_1 {
+    height: 248px;
+    margin-bottom: 8px;
+}
+
+.single_1_1 img {
+    margin-right: 8px;
+    float: left;
+}
+
+.single_1_1 img:last-child {
+    margin: 0;
+}
+
+.single_1_2 {
+    margin-bottom: 8px;
+    background: linear-gradient(to right, #dddddd, #cdcdcd);
+}
+
+.single_1_2 img {
+    margin: 0 auto;
+}
+
+#brand {
+    height: 610px;
+}
+
+.brand_1 {
+    height: 175px;
+    margin-bottom: 8px;
+}
+
+.brand_2 {
+    height: 86px;
+    margin-bottom: 8px;
+}
+
+.brand_1 img,
+.brand_2 img {
+    margin-right: 8px;
+    float: left;
+}
+
+.brand_1 img:last-child,
+.brand_2 img:last-child {
+    margin: 0;
+}
+
+#jacket {
+    height: 965px;
+}
+
+.tongyong_1 {
+    height: 248px;
+    margin-bottom: 8px;
+}
+
+.tongyong_1_1 {
+    margin-right: 8px;
+    width: 185px;
+    height: 248px;
+    float: left;
+}
+
+.tongyong_1_1 img {
+    clear: both;
+}
+
+.tongyong_1_1 img:last-child {
+    padding-top: 8px;
+}
+
+.tongyong_1_2 {
+    background: #f8f8f8;
+    margin-right: 8px;
+    float: left;
+    width: 185px;
+    height: 228px;
+    padding: 10px 0;
+}
+
+.tongyong_1_2 a {
+    line-height: 38px;
+    color: #000;
+    text-align: center;
+    float: left;
+    display: block;
+    width: 50%;
+    height: 38px;
+    font-size: 14px;
+}
+
+.tongyong_1 img {
+    margin-right: 8px;
+    float: left;
+}
+
+.tongyong_1 img:last-of-type,
+.tongyong_2 img:last-child {
+    margin: 0;
+}
+
+.jtongyong_2 {
+    margin-top: 10px;
+}
+
+.tongyong_2 img {
+    margin-right: 10px;
+    float: left;
+}
+
+#trousers {
+    height: 965px;
+}
+
+#shoe {
+    height: 965px;
+}
+
+#accessories {
+    height: 965px;
+}
+
+#new {
+    height: 6388px;
+}
+
+.new_1 {
+    width: 100%;
+    height: 95px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.new_1 p {
+    width: 298px;
+    height: 31px;
+    font-size: 14px;
+    line-height: 31px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+.new_2 {
+    height: 408px;
+}
+
+.new_2 dl {
+    width: 222px;
+    float: left;
+    margin-right: 10px;
+}
+
+.new_2 dl:last-child {
+    margin: 0;
+}
+
+.new_2 dt {
+    width: 222px;
+    height: 298px;
+}
+
+.new_2 dt img {
+    width: 222px;
+    height: 298px;
+}
+
+.new_2 dl dd {
+    text-align: center;
+    font-size: 11px;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.new_2 dl dd a {
+    color: #000;
+}
+
+.new_2 dl dd:last-of-type {
+    margin: 0;
+}
+
+.new_3 {
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.new_3 a {
+    display: block;
+    color: #fff;
+    background: #000;
+    width: 120px;
+    height: 35px;
+    font-size: 12px;
+    line-height: 35px;
+    margin: 0 auto;
+}
